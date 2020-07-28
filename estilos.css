@@ -1,0 +1,94 @@
+
+@charset "utf-8";
+
+body {
+	font-family: 'Roboto Mono', monospace;
+	background-repeat: no-repeat;
+    width: 1004px;
+	height: 1873px;
+	margin: auto;
+
+}
+
+header{
+	height: 50px;
+	font-family: 'Roboto Mono', monospace;
+	padding-left: 200px;
+	padding-top: 50px;
+}
+header ul#Inicio li{
+	display: inline;
+	float: right;
+}
+header ul#Inicio li a{
+	text-decoration: none;
+	color: #DC6600;
+	padding-left: 50px;
+	font-family: Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+.clear{
+	clear: both;
+}
+
+footer{
+	background-color: #F32332;
+    height: 80px;
+	margin-top: 40px;
+}
+hr{
+	color: #FFF;
+}
+h6{
+	text-align: center;
+	margin-top: 10px;
+	color: #FFF;
+}
+	
+table{
+	width: 100%;
+	border-spacing: 5px;
+	font-weight: bold;
+	font-family: "Trebuchet MS", Verdena, "sans-serif";
+	text-align: center;
+}
+marquee{
+	text-align: center;
+	color: red;
+	font-size: 36px;
+}
+table, th, td{
+	border: 1.5px solid #FFF;
+	border-radius: 6px;
+	border-collapse: collapse;
+}
+th, td{
+	padding: 15px;
+}
+.table1 thead th{
+	background-color: blue;
+	color: white;
+	text-align: center;
+}
+.table1 tbody th{
+	background-color: blue;
+	color: white;
+	text-align: center;
+}
+.table1 tfoot td{
+	color: blue;
+	font-size: 36px;
+	text-align: center;
+}
+.table1 tfoot th{
+	color: blue;
+	font-size: 36px;
+	text-align: center;
+}
+.table1 tbody tr{
+	background-color: #FFFFFF;
+}
+
+
+		
+		
+
